@@ -136,6 +136,7 @@
                             </p>
                             <h3>in de winkel</h3>
                             <p class="news-item-text">Let op! Het is wat aan de drukker dan normaal.</p>
+                            
                         </div>
                     </div>
                 </div>
