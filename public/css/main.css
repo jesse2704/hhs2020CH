@@ -1,0 +1,32 @@
+.navbar-logo {
+    background-image: url("../img/logoHHSChallenge.png");
+    width: 20px;
+}
+
+.navbar {
+    background-color: RGB(228 75 93 );
+}
+
+#home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#marketing {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#aboutus {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.section_container {
+    margin: 30px 15% 15px 15%;
+}
