@@ -18,7 +18,7 @@ class CreateStoresTable extends Migration
             $table->string("name");
             $table->string("adress");
             $table->string("capacity");
-            $table->string("work_time_id")->unsigned();
+            $table->string("work_time_id")->unsignedBigInteger();
             $table->integer("phonenumber");
             $table->string("emailadress");
             $table->integer("total_count");

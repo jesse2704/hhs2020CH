@@ -15,16 +15,16 @@ class CreateTimesTable extends Migration
     {
         Schema::create('times', function (Blueprint $table) {
             $table->id();
-            $table->varchar("day");
+            $table->string("day");
             $table->string("open_time");
             $table->string("close_time");
             $table->timestamps();
+
+            
+           //$table->foreign('id')->references('work_time_id')->on('stores')->onDelete('cascade');
         });
 
-        Schema::table('times', function($table) {
-            //Relations
-            $table->foreign('id')->references('work_time_id')->on('stores')->onDelete('cascade');
-        });
+       
     }
 
     /**

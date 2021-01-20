@@ -1,0 +1,159 @@
+body {
+    font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    color: #606060;
+    line-height: 1.65em;
+    padding-top: 51px;
+}
+@font-face{
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot')
+}
+a:hover{
+    text-decoration: none;
+}
+article, #content{
+    border-top: 1px solid #d6d6d6;
+}
+main h1, main h2, main h3, main h4, main h5, main h6{
+    color: #800080;
+    font-weight: bold;
+}
+#header .col-lg-12, #header .col-md-12, #header .col-sm-12, #header .col-xs-12{
+    padding: 0;
+}
+#content #content-header h2{
+	font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#content #news .news{
+    float: left;
+}
+#content #news .news-item{
+    background: #ffffff;
+    padding: 20px 15px;
+}
+#content #news .news-item h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 5px 0;
+    color: #666666;
+}
+#content #news .news-item .news-item-date{
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+#content #steun{
+    background-color: #db7885;
+    background-repeat: no-repeat;
+    background-image: url(http://www.devruchtenburg.nl/wp-content/uploads/2015/05/bloemen.jpg);
+    background-attachment: scroll;
+    background-position: top center;
+}
+#content #steun .support-item{
+    background-color: #ffffff;
+    padding: 30px;
+}
+#content #steun .support-item h2{
+    color: #800080;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 30px;
+    text-transform: none;
+    font-weight: bold;
+}
+#content #aanmelden h2{
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+}
+#content #aanmelden .register .btn-primary{
+	background-color: #c80751;
+    border-color: #c80751;
+}
+#content #aanmelden .register .btn{
+    border-radius: 0;
+    padding: 15px 30px 13px;
+}
+#content #aanmelden .register .btn-primary:hover{
+	opacity: 0.8;
+}
+#content .latest-news{
+    padding-top: 25px;
+}
+#content .latest-news h3{
+    text-transform: uppercase;
+}
+#content .latest-news, #content .latest-news a{
+    color: #666666;
+    font-weight: bold;
+    display: block;
+}
+#content .latest-news a span{
+    font-weight: normal;
+}
+#content .latest-news ul{
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 15px;
+}
+#content .latest-news ul li{
+    margin-top: 15px;
+}
+#news, footer{
+    background-color: #f3f3f3;
+}
+footer article h3{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.side-br {
+	border-right: 1px solid #e1e1e1;
+}
+side-bl{
+    border-left: 1px solid #e1e1e1;
+}
+.cont-pad{
+    padding: 50px 0;
+}
+.left {
+	float: left;
+}
+.ls-wrap{
+    padding-top: 10px;
+}
+.ls-btn{
+    border: 3px solid #000;
+    color: rgba(0,0,0,0.6);
+    border-color: rgba(0,0,0,0.6);
+    padding: 9px 10px 7px;
+    font-size: 13px;
+    min-width: 80px;
+}
+.ls-btn:hover {
+	opacity: 0.7;
+    color: #000;
+}
+.sub-color, .news-item-date {
+	color: #c80751;
+}
+@media screen and (max-width: 767px){
+    .mg-top-mobile {
+	   margin-top: 25px;
+    }
+    .mg-top-mobile:first-child{
+	   margin: 0;
+    }
+    #content #steun .support-item h2{
+        font-size: 28px;
+    }
+    .cont-pad{
+        padding: 25px 0;
+    }
+}
+@media screen and (min-width: 768px){
+    body{
+        padding-top: 79px;
+    }
+}
