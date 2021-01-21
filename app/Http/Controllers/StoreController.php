@@ -9,7 +9,10 @@ use App\Models\Store;
 class StoreController extends Controller
 {
     public function index() {
-        return view('welcome')->with('totals', Store::all()->pluck('total_count', 'capacity'));
+        $test = Store::all()->pluck('total_count');
+        $capacity = Store::all()->pluck('capacity');
+
+        return view('welcome')->with('totals', $test, );
     }
     
 }

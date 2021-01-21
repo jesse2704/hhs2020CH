@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta content="Portcount De Haagse Hogeschool" name="copyright">
-    <meta content="Portcount is een tool om ondernemers een zekerheid aan te bieden in de tijden van een pandemie." name="DESCRIPTION">
-	<meta content="Portcount Covid-19 Covid" name="KEYWORDS">
-    <title>Portcount</title>
+    <meta content="" name="copyright">
+    <meta content="" name="DESCRIPTION">
+	<meta content="" name="KEYWORDS">
+    <title>(TEST) De Vruchtenburg</title>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="{{url('/img/favicon.png')}}">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
     <link href="{{url('/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{url('/css/navbar.css')}}" rel="stylesheet">
     <link href="{{url('/css/styles.css')}}" rel="stylesheet">
@@ -100,45 +99,22 @@
         <div class="container">
             <div class="row">
                 <div class="news">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mg-top-mobile">
-                        <div class="news-item text-center">
-                            <a href="#"><span class="sub-color">Winkel 1</span></a><br>
-                            <h3>Er zijn op dit moment</h3>
-                            <p class="news-item-date">
-                                @foreach ($totals as $total)
-                                  {{$total}}
-                                @endforeach
-                            </p>
-                            <h3>in de winkel</h3>
-                            <p class="news-item-text">Het is op dit moment veilig om naar de winkel te gaan!</p>
-                        </div>
-                    </div>
+                @foreach ($totals as $total)
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mg-top-mobile">
                         <div class="news-item text-center">
                             <a href="#"><span class="sub-color">Winkel 2</span></a><br>
                             <h3>Er zijn op dit moment</h3>
                             <p class="news-item-date">
-                            @foreach ($totals as $total)
+                           
                                   {{$total}}
-                                @endforeach
+                               
                             </p>
                             <h3>in de winkel</h3>
                             <p class="news-item-text">Het is op dit moment veilig om naar de winkel te gaan!</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mg-top-mobile">
-                        <div class="news-item text-center">
-                            <a href="#"><span class="sub-color">Winkel 3</span></a><br>
-                            <h3>Er zijn op dit moment</h3>
-                            <p class="news-item-date">
-                            @foreach ($totals as $total)
-                                  {{$total}}
-                                @endforeach
-                            </p>
-                            <h3>in de winkel</h3>
-                            <p class="news-item-text">Het is op dit moment veilig om naar de winkel te gaan!</p>
-                        </div>
-                    </div>
+                    @endforeach
+                
                 </div>
             </div>
         </div>
@@ -147,14 +123,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mg-top-mobile">
-                    <h2 class="text-center">Wij weten wat er met je gebeurt<br>als je te horen krijgt dat je winkel dicht moet.</h2>
+                    <h2 class="text-center">Wij weten wat er met je gebeurt<br>als je te horen krijgt dat je kanker hebt.</h2>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mg-top-mobile">
                     <div class="register">
                         <h2>Aanmelden</h2>
-                        <p>Als u geïnteresseerd bent in onze dienst, dan kunt u zich aanmelden of telefonisch contact opnemen met ons.<br><br>
-                        Zodra wij uw aanmelding ontvangen hebben, nemen wij zo snel mogelijk contact met u op.<br>
-                        Zou u graag meer informatie willen over de Portcount? <a href="#">Klik dan hier.</a>
+                        <p>Als u geïnteresseerd bent in onze zorg en begeleiding, dan kunt u zich aanmelden of telefonisch contact opnemen met één van onze vestigingen.<br><br>
+                        Zodra wij uw aanmelding ontvangen hebben, sturen wij u een inschrijfpakket toe. Hierin vindt u een inhoudelijke vragenlijst en een brief met verdere informatie over onder andere de intake.<br><br>
+                        Wilt u nu al meer weten over de intakeprocedure? <a href="#">Klik dan hier.</a>
                         </p>
                         <a class="btn btn-primary" href="#" role="button">Aanmelden</a>
                     </div>
